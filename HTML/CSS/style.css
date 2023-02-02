@@ -1,0 +1,85 @@
+/* body{
+    overflow-y: hidden; 
+    overflow-x: hidden;
+} */
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-caption h5{
+    margin-left: 0.5%;
+/* width: 70%;
+height: 30%; */
+font-size:35px;
+text-align: left;
+
+}
+.carousel-caption p{
+    margin-left: 0.5%;
+text-align: left;
+margin-bottom:10%;
+}
+.carousel-indicators{
+    visibility: hidden;
+    
+}
+
+
+.mailpass{
+    width:90%;
+    margin-top:35%;
+    margin-left:12%;
+ 
+}
+.form-label{
+    margin-top:5%;
+    color:#414141;
+    font-size: small;
+  
+}
+ .form-control{
+    width:80%;
+    height:50px;
+
+    
+ }
+ .btn{
+     width:81%;
+     color:#F88634;
+     border:1px solid #F88634;
+     height:40px;
+     border-radius:50px;
+     margin-top:8%;
+
+ }
+ .lost{
+    margin-top:5%;
+    text-align: center;
+    font-size: small;
+ }
+ .acc{
+     margin-top:10%;
+ }
+.privacy{
+    
+    margin-left:33%;
+    text-align: center;
+    font-size: small;
+    color:black;
+    margin-top: -5%;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+@media screen and (min-width:300px) and (max-width:991px) {
+    .mailpass{
+      margin-top:5%  ;
+      
+    }
+
+} 

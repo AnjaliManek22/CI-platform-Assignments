@@ -1,0 +1,53 @@
+
+.mailpass2{
+    width:90%;
+    margin-top:35%;
+    margin-left:12%;
+}
+.frgtpsd1{
+    padding-top: 0%; 
+    margin-left:25%;
+}
+.instruction1{
+    font-size:small;
+     text-align:center;
+     
+     margin-left: -20%;
+     
+    
+} 
+
+.loginbutn1{
+    margin-top:0.2%;
+    font-size: small;
+    margin-left: 46% !important;
+}
+.privacy1{
+    margin-left:67%;
+    text-align: center;
+    font-size: small;
+    color:black;
+    margin-top: -5%;
+}
+@media screen and (min-width:360px) and (max-width:992px) {
+    .mailpass2{
+      margin-top:5%  ;
+      
+    }
+   .instruction1{
+    font-size:small; 
+    
+   }
+   /* .abcd{
+       
+       margin-left: 20%;
+   } */
+   .frgtpsd1{
+       margin-left: 29%;
+   }
+   .privacy1{
+       margin-top: 30%;
+       margin-left:-3%;
+   }
+}
+
