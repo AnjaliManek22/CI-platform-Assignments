@@ -1,0 +1,282 @@
+#explrmission{
+    font-size: xx-large;
+    font-family: 'Noto Sans', sans-serif;    
+    letter-spacing: 0px;
+    color: #333333;
+}
+
+.missionstart{
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-top: 20px
+    
+
+}
+
+
+.sortbymenu{
+    border: 1px solid #ecebeb;
+     background:none;
+     width: 20rem;
+     padding: 5px;
+    
+    
+}
+
+.gridbtn{
+   
+    border: none;
+    background: none;
+    width: 5rem;
+    margin-left: 1rem;
+    height: 20px;
+    margin-right: -0.5rem;
+    
+}
+
+.listbtn{
+    background: none;
+    border: none;
+    background-color: white;
+    width: 5rem;
+   
+    
+}
+
+#gridbtnimg{
+    background-color: rgb(207, 204, 204);
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#listbtnimg{
+    height: 30px;
+    margin-top: 8px;
+}
+.userimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+}
+.imgsearch{
+
+    margin-left:-2%;
+    
+  }
+  .searchh{
+      margin-left:2%; 
+    border:none;
+    margin-top:3%;
+    color:#E8E8E8
+  }
+  .mainfilter{
+    display:flex;
+    margin-left:50%;
+}
+.secnav{
+    display:flex;
+}
+.filterbox{
+    width:25%;
+   border:1px solid #757575;
+
+}
+.explore{
+
+ font-weight: 10;
+}
+.mission{
+    display:flex;
+    width:100%
+}
+.filterbox1{
+    height:80px
+}
+
+.filterbox{
+    width:25%;
+   border:1px solid #E8E8E8;
+ 
+}
+.main{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.lines{margin-bottom: -1px;
+    color:#E8E8E8
+}
+.bline{
+    margin-top:-1px;
+    color:#E8E8E8
+}
+.nomsnfound{
+    text-align: center;
+    font-size: 25px;
+}
+.btnhead{
+    color:#F88634;
+    border:1px solid #F88634;
+    border-radius: 50px;
+    width:15rem;
+  justify-content: center;
+    font-size:20px;
+   background-color: white;
+   margin-left: 54%;
+   padding:0.4%
+}
+.btn{
+    color:#F88634;
+    border:1px solid #F88634;
+    border-radius: 50px;
+    width:21rem;
+  justify-content: center;
+    font-size:20px;
+   
+}
+.arrow{
+    margin-left:8%;
+}
+
+
+@media screen and (min-width:992px) and (max-width:1629px){
+    .btnhead{
+        color:#F88634;
+        border:1px solid #F88634;
+        border-radius: 50px;
+        width:15rem;
+      justify-content: center;
+        font-size:20px;
+       background-color: white;
+       margin-left: 45%;
+       padding:0.3%
+    }
+}
+@media only screen and (min-width: 992px)  {
+
+    .hdrstry{
+           margin-left: 550%; 
+           
+    }
+
+    .hdrplcy{
+        margin-left: 650%;
+        
+        
+    }
+
+    .uname{
+        margin-right: 10%;
+    }
+  
+    }
+        
+    @media only screen and (min-width:992px) and (max-width: 1150px) {
+        .btnhead{      
+        width: 13rem;  
+         margin-left: 20%;      
+        }
+        .hdrstry{
+            margin-left: 100%;
+        }
+    
+        .hdrplcy{
+            margin-left: 100%;
+        }
+    
+        }
+        @media only screen and (min-width:1151px) and (max-width: 1200px) {
+            .btnhead{      
+            width: 13rem;  
+             margin-left: 29%;      
+            }
+            .hdrstry{
+                margin-left: 100%;
+            }
+        
+            .hdrplcy{
+                margin-left: 100%;
+            }
+        
+            }
+            @media only screen and (min-width:1201px) and (max-width: 1555px) {
+                .btnhead{      
+                width: 13rem;  
+                 margin-left: 29%;      
+                }
+                .hdrstry{
+                    margin-left: 100%;
+                }
+            
+                .hdrplcy{
+                    margin-left: 100%;
+                }
+            
+                }
+        /* !--oldmedia  */
+        @media screen and (min-width:769px) and (max-width:991px){
+
+            .navbar
+        {
+        width: 100%;
+        
+        }
+        .imgsearch{
+        
+        margin-left:10%;
+        
+        }
+        
+        .container
+        {
+        margin-left: 0px;
+        }
+            .image1{
+                height:50px ;
+                width:50px;
+                border-radius:50%;
+                margin-left:0%
+            }
+            .policy{
+                margin-left:0%;
+            }
+            .navbar1{
+                margin-left:0%;
+               
+            }
+            .filterbox{
+                width:35%;
+            }
+        }
+        @media screen and (min-width:360px) and (max-width:768px){
+        
+        
+           .policy{
+        font-size:150%;
+           }
+           .searchh{
+            margin-left:11%;
+            width:60%; 
+          border:none;
+          margin-top:4%;
+        
+        }
+        .imgsearch{
+        
+            margin-left:11%;
+           
+          }
+          .filterbox{
+            width:45%;
+            
+        }
+        .main{
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .filterbox1{
+            margin-left:0%
+            
+        }
+        }
+        /* <oldmedia> */
