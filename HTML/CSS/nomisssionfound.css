@@ -137,6 +137,12 @@
 .arrow{
     margin-left:8%;
 }
+hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background: black;
+  }
 
 
 @media screen and (min-width:992px) and (max-width:1629px){
